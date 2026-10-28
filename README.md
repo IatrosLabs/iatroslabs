@@ -2,21 +2,6 @@
 
 Static, client-rendered single-page website using Node.js + Webpack 5, with **no source maps**. Six themes (dark/light × green/blue/red), Spanish/English/French translations, original supplied logo and email contact.
 
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
-Visit http://localhost:3000.
-
-## Production build
-
-```bash
-npm run build
-```
-
 Output is `dist/`. Webpack sets `devtool: false` in all modes.
 
 ## GitHub Pages
